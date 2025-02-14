@@ -4,7 +4,7 @@
   "description": "Belajar menggunakan teknologi tailwind untuk permudah css layout 😁",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch"
   },
   "keywords": [],
   "author": "",
